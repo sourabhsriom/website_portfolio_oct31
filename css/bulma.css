@@ -38,7 +38,7 @@ textarea,
 pre,
 iframe,
 
-h1,
+
 h2,
 h3,
 h4,
@@ -50,6 +50,10 @@ h6 {
   padding-left: 5%;
   padding-bottom: 2%;
 
+}
+
+h1{
+  text-align: right;
 }
 
 .list{
@@ -97,7 +101,7 @@ html {
 .poster{
 
   width: 100%;
-  height: 50%;
+  object-fit: contain;
 }
 * {
   box-sizing: inherit;
